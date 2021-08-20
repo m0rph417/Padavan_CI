@@ -183,7 +183,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_NJIT_CLIENT=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_MINIEAP=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_DOGCOM=n" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=n" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=y" >> .config
         #校园网相关结束
         #########################################################################################
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
